@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+  </head>
+  <body>
+    
+    
+  </head>
+  <body>
+    <div class="container">
+        <center>
+          <h1>CRC GENERATOR</h1>
+          <br>
+          <br>
+          <br>
+            <label for="dividend">Dividend:</label>
+        <input type="text" id="dividend">
+    
+        <label for="divisor">Divisor:</label>
+        <input type="text" id="divisor">
+        <br>
+        <br>
+        <button onclick="encodeData()">Encode Data</button>
+        <div id="remainder"></div>
+        <div id="encodedData"></div>
+        <br>
+        <br>
+        <label for="receivedData">Received Data:</label>
+        <input type="text" id="receivedData">
+        <br>
+        <br>
+        <button onclick="receiver()">Check Message</button>
+        <div id="result"></div>
+        </center> 
+      </div>
+
+      <script src="crc.js"></script> 
+  </body>
+</html>
